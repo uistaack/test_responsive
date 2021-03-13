@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Shippori+Mincho+B1:wght@400;500;600;700;800&display=swap');
+
+
+
+html,body{
+				padding:0;
+				margin:0;				
+}
+.container{
+				padding:15px;	
+				max-width:500px;	
+}
+
+
+
+
+
+
+
+
+
+
+.bottomNav{
+ position:fixed;
+ left: 8%; 
+ bottom: 25px;
+ 	height: 25px; 
+ width: 75%; 
+ text-align:center;
+ background:#fff;
+ display:grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-row-gap:0px;
+ padding:10px;
+border: 2px solid #000;
+border-bottom:3px solid #000;
+border-radius:25px;
+}
+
+
+
+
+.bottomNav div i{
+				color:#000;
+				font-size:25px;
+}
+
+.homeBtn{
+text-align:right;
+}
+.bottomNav div{
+text-align:center;
+
+
+}
+.menuBtn{
+text-align:left;
+}
+
+#homebtn{
+				/*color:#2C2F2E;*/
+				color:#000;
+}
+
+
+/*CARD DESIGN*/
+/*
+div img{
+      width:100%;
+				border-radius:10px;				
+}
+
+.subhead{
+			font-weight:bold;	
+}
+
+.para{
+				color:#2C2F2E;
+}
+*/
+
+
+/*card*/
+
+#home div{
+			border: 2px solid #000;	
+			border-bottom:4px solid #000;
+			width:90%;
+			border-radius:15px;
+			padding:10px;
+			box-shadow: -5px 5px #F65F34, -5px 5px 0 2px #000;
+			/*background:#00C5AC;*/
+			
+			
+}
+
+.hmeImg{
+			border: 2px solid #000;	
+			width:100%;
+				border-radius:7.5px;
+				
+}
+
+.subhead{
+				text-align:left;
+				font-size:18px;			
+font-family: 'Shippori Mincho B1', serif;
+font-weight:900;	
+}
+
+.para{
+				text-align:left;
+				font-size:14px;
+				font-family: 'Roboto Slab', serif;
+				font-weight:600;
+}
+
+
+
+.header{
+				 display:grid;
+ grid-template-columns: 1fr 1fr;
+ grid-row-gap:0px
+}
+
+.header img{
+			text-align:left;	
+}
+
+.header div {
+			text-align:right;
+}
+
+.header div i{
+				font-size:40px;
+}
